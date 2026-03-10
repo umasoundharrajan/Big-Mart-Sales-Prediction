@@ -9,9 +9,9 @@ This project predicts the sales of products across various Big Mart outlets usin
   * Extracted `Item_Type_Combined` from Product IDs.
   * Corrected `Item_Fat_Content` for non-consumable items.
 * **Model:** XGBoost Regressor with 5-Fold Cross-Validation.
-* **Performance:** Achieved an Average RMSE of **1120**
+* **Performance:** Achieved an Average RMSE of **1121**
 
 ## How to Run
 1. Ensure `pandas`, `numpy`, `xgboost`, and `scikit-learn` are installed.
 2. Keep the train and test CSVs in the same folder as the script.
-3. Run the notebook/script to generate `final_submission.csv`.
+3. Run the notebook/script to generate `Final_submission_V1.csv`.
